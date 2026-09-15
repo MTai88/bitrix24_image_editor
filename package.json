@@ -1,0 +1,12 @@
+{
+	"name": "bitrix24-image-editor",
+	"version": "1.1.0",
+	"description": "Bitrix24 landing image editor wrapper extension (mtai.image_editor)",
+	"private": true,
+	"scripts": {
+		"build": "bitrix build -p local/js/mtai/image_editor"
+	},
+	"devDependencies": {
+		"@bitrix/cli": "^3.3.9"
+	}
+}
